@@ -26,7 +26,7 @@ class Contact {
         res.status(500).json({ error: err.message });
     }
   }
-  async courseTrash(req, res) {
+  async Trash(req, res) {
     try {
         const { id } = req.params;
         await ContactModal.findByIdAndDelete(id);
@@ -35,18 +35,7 @@ class Contact {
         res.status(400).json({ error: err.message });
     }
   }
-  async CourseUpdate(req, res) {
-    try {
-        const { id } = req.params;
-        const { name,phone,email,message } = req.body;
-        const updatedContact = 
-        await ContactModal.findByIdAndUpdate(id, { name,phone,email,message}, { new: true });
-        res.status(200).json({ message: 'Contact updated successfully',
-         Contact: updatedContact });
-    } catch (err) {
-        res.status(400).json({ error: err.message });
-    }
-  }
+  
 }
 const ContactController = new Contact();
 module.exports = ContactController;
