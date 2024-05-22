@@ -1,0 +1,31 @@
+.ContactContainer {
+  height: 79vh;
+  margin-top: 3rem;
+}
+.ContactUsMessageSent {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 550;
+  font-size: 16px;
+  color: rgb(253, 155, 12);
+}
+.AboutUs_Container_01_Home {
+  color: rgb(170, 172, 173);
+  font-size: 17px;
+  font-weight: 500;
+}
+.AboutUs_Container_01_Home:hover {
+  color: #1f185b;
+  cursor: pointer;
+}
+.AboutUs_Container_01_About {
+  color: #fd9b0c;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 488px) {
+  .ContactContainer {
+    margin-top: 1rem;
+  }
+}

@@ -1,3 +1,94 @@
+
+li,
+.dropdown-item,
+a {
+  list-style-type: none;
+}
+li,
+.dropdown-item,
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+.cl {
+  color: #068fff;
+  margin-right: 5px;
+}
+.gHNpyS {
+  border: 1px solid #d8d9da !important;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.sidenav {
+  width: 250px;
+  flex: 0 0 auto;
+  transition: width 0.3s ease-in-out;
+  height: 200vh;
+  background-color: #f9f9f9;
+  padding-top: 28px;
+}
+
+
+.sideitem {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+
+.h_p:hover {
+  background-color: green !important;
+}
+.sideitem:hover {
+  background-color: #090a0be3;
+  color: white !important;
+}
+.active {
+  color: #068fff;
+}
+.active1:hover {
+  background-color: rgb(181, 45, 45);
+}
+
+.menuBtn {
+  align-self: center;
+  align-self: flex-start;
+  justify-self: flex-end;
+  color: black;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding-left: 20px;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.App {
+  display: flex;
+}
+
+main {
+  width: 100%;
+}
+
+
+.img {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  margin: auto;
+}
 body {
   margin: 0;
   padding: 0;
@@ -25,6 +116,7 @@ Link:hover {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
+  
     background-color: #f7f7f7;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
